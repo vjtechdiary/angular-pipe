@@ -1,0 +1,38 @@
+<!-- This will convert the data in Upper Case -->
+<h4>Uppercase Pipe</h4>  
+<p>{{title | uppercase}}</p>
+
+<!-- This will convert the data in Lower Case -->
+<h4>Lowercase Pipe</h4>  
+<p>{{title | lowercase}}</p>  
+
+<!-- This will convert the data in the required currency -->
+<h4>Currency Pipe</h4>  
+<p>{{3456.78 | currency:"INR"}}</p>
+<p>{{3456.78 | currency:"USD"}}</p>
+
+
+<!-- This will transform the data in to required dat format -->
+<h4>Date pipe</h4>  
+<p>{{todayDate | date:'d/M/y'}}</p> 
+<p>{{todayDate | date:'shortTime'}}</p>  
+
+<!-- This will transform the data to the decinal format-->
+<h4>Decimal Pipe</h4>  
+<!--4 is for main integer, 3 -3 are for integers to be displayed.-->
+<p>{{ 454.78787814 | number: '4.3-3' }}</p>  
+
+<!--This will transform the data to JSON format -->
+<h4>Json Pipe</h4>  
+<p>{{ userInfo | json }}</p>  
+
+<!-- This will convert to the percentage -->
+<h4>Percent Pipe</h4>  
+<p>{{00.54565 | percent}}</p>  
+
+<!-- This will slice the array Data -->
+<h4>Slice Pipe</h4>  
+<!-- 3 & 7 refers here to the start and end index -->
+<p>{{months | slice:3:7}}</p>  
+
+<router-outlet></router-outlet>
