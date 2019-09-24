@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Tutorial 
 
-Read tutorial [Pipes in Angular](https://vjtechdiary.blogspot.com/2019/09/pipes-in-angular.html) on [VJ Tech Diary](https://vjtechdiary.blogspot.com). 
+Read tutorial [Pipes in Angular](https://vjtechworld.com/2019/09/pipes-in-angular.html) on [VJ Tech Diary](https://vjtechworld.com). 
 
 ## Install Dependencies
 
